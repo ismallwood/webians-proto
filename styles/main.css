@@ -1,0 +1,270 @@
+body {
+    font-family: "proxima-nova",sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #fefefe;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-style: normal;
+    color: inherit;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.4;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0.75em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.45em 0;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin: 0.25em 0;
+}
+
+p {
+  line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+ display: flex;
+ justify-content : space-between;
+align-items : center;
+}
+
+section {
+  min-height : 60vh;
+  padding : 4em 1em;
+  overflow: hidden;
+}
+
+article {
+  padding : 2em;
+  font-size: 1.5em;
+}
+
+.section_header {
+  max-width: 640px;
+  margin : 2em;
+}
+
+nav {
+  order: 1;
+  flex-grow: 2;
+}
+
+.menu-lang {
+  order: 2;
+  position: relative;
+  top : -1em;
+}
+
+.menu-social {
+    order: 3;
+    align-self : flex-end;
+    position: relative;
+    left : -5em;
+  top : -1em;
+}
+
+header ul {
+ display: flex;
+}
+
+.am-container {
+  width : 100%;
+}
+
+.featured {
+  position : relative;
+  padding: 0 !important;
+}
+
+.hero {
+  position: absolute;
+  max-width: 640px;
+  left: 15%;
+  top: 15%;
+  padding: 2em 2em 2em 7em;
+  color: #fff;
+  display: block;
+  background: rgba(0, 0, 0, 0.75) url(images/webians_picto_seul.png) 2em 2em no-repeat;
+}
+
+.hero h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+.legend {
+  text-align : center;
+  padding : 2em;
+  color: #0a0a0a;
+}
+
+.services-agence {
+  background-color : #373945;
+  color : #fff;
+}
+
+.services-agence .section_header {
+  float : right;
+}
+
+/* .services-agence h1 {
+    background-color: #33B2B8;
+    position: relative;
+    padding: 15px;
+    color: #fff;
+    background: #33B2B8;
+    border-radius: 10px;
+    max-width: 320px;
+    text-align: center;
+    float : right;
+}
+
+.services-agence h1:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50px;
+  border-width: 20px 0 0 20px;
+  border-style: solid;
+  border-color: #33B2B8 transparent;
+  display: block;
+  width: 0;
+} */
+
+.services {
+  background-color: #33B2B8;
+  color: #fefefe;
+}
+
+.services a {
+  color : #fff;
+}
+
+.services .section_header {
+  float : left;
+}
+
+.section-cta {
+  border: 1px solid #fff;
+  overflow: hidden;
+  float: right;
+  max-width: 480px;
+  padding : 0.5em;
+  border-radius: 10px;
+  margin: 3em 20% 1em 0;
+}
+
+.section-cta a {
+  font-size: 0.75em;
+  display: block;
+}
+
+.services h1 {
+    background-color: #33B2B8;
+    position: relative;
+    padding: 15px;
+    color: #fff;
+    background: #373945;
+    border-radius: 10px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.services h1:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50px;
+  border-width: 20px 0 0 20px;
+  border-style: solid;
+  border-color: #373945 transparent;
+  display: block;
+  width: 0;
+}
+
+.services h2 {
+  margin : 0 0 0 3em;
+}
+
+footer {
+    background-color: #33B2B8;
+    color: #fefefe;
+    text-align: center;
+}
+
+.site-footer {
+    padding: 20px 0;
+    background-color: #58585A;
+}
+
+
+.legals {
+    background-color: #fefefe;
+    color: #0099a1;
+    padding: 20px;
+}
+
+.equipe section {
+  padding : 0;
+}
+
+.equipe .section_header {
+  margin-bottom: 0;
+}
+
+.equipe article {
+  max-width: 480px;
+  padding: 0 0 0 2em;;
+}
+
+.equipe article p {
+  line-height: 1.4;
+}
+
+#alain {
+ background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;
+ background-size: cover;
+ color : #373945;
+}
+
+#clem {
+background: #33B2B8 url('images/people/equipe-proto.jpg')  top center no-repeat;;
+ background-size: cover;
+ color : #373945;
+}
+
+#sev {
+ background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;;
+ background-size: cover;
+ color : #373945;
+}
+
+#thib {
+background: #33B2B8 url('images/people/equipe-proto.jpg') top center no-repeat;;
+ background-size: cover;
+  color : #373945;
+}
+
+#ian {
+ background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;;
+ background-size: cover;
+  color : #373945;
+}

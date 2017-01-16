@@ -1,0 +1,44 @@
+nav {
+  font-size : 0.85em;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  justify-content : space-between;
+  padding : 0 3em;
+}
+
+nav li {
+
+  border-right: 1px solid #DEDEDE;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav a {
+    color: #0a0a0a;
+    transition: color .5s;
+    padding: 1.25em 4em;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover,nav a:focus {
+    color: #0099a1;
+}
+
+.menu-lang li a {
+    color: #0a0a0a;
+    transition: color .5s;
+    padding : 0 0.25em;
+    font-size: 0.85em;
+}
+
+
+.menu-social  a {
+    padding : 0.25em;
+}
