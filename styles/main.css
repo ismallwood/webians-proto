@@ -47,7 +47,6 @@ align-items : center;
 }
 
 section {
-  min-height : 60vh;
   padding : 4em 1em;
   overflow: hidden;
 }
@@ -169,7 +168,7 @@ header ul {
   max-width: 480px;
   padding : 0.5em;
   border-radius: 10px;
-  margin: 3em 20% 1em 0;
+  margin: 3em 1em;
 }
 
 .section-cta a {
@@ -204,6 +203,26 @@ header ul {
   margin : 0 0 0 3em;
 }
 
+
+/*################# PAGE METIERS ######################*/
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-list > div {
+  max-width: 400px;
+}
+
+.service-list ul {
+  list-style-type: disc;
+}
+
+
+
+
 footer {
     background-color: #33B2B8;
     color: #fefefe;
@@ -222,49 +241,69 @@ footer {
     padding: 20px;
 }
 
-.equipe section {
-  padding : 0;
+
+.people-list {
+    background: #33B2B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
+.people {
+  max-width: 80em;
+}
+
+
+.equipe section {
+
+}
+
+
+
 .equipe .section_header {
-  margin-bottom: 0;
+
 }
 
 .equipe article {
-  max-width: 480px;
-  padding: 0 0 0 2em;;
+  display: flex;
 }
 
 .equipe article p {
   line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+.article-content {
+
+}
+
+.portrait {
+
+}
+
+.portrait img {
+
 }
 
 #alain {
- background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;
+/* background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;
  background-size: cover;
- color : #373945;
+ color : #373945;  */
 }
 
 #clem {
-background: #33B2B8 url('images/people/equipe-proto.jpg')  top center no-repeat;;
- background-size: cover;
- color : #373945;
+
 }
 
 #sev {
- background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;;
- background-size: cover;
- color : #373945;
+
 }
 
 #thib {
-background: #33B2B8 url('images/people/equipe-proto.jpg') top center no-repeat;;
- background-size: cover;
-  color : #373945;
+
 }
 
 #ian {
- background: #373945 url('images/people/equipe-proto.jpg') top center no-repeat;;
- background-size: cover;
-  color : #373945;
+
 }
